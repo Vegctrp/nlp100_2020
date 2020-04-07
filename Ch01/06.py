@@ -18,6 +18,6 @@ y = set(make_char_ngram(string2, 2))
 
 print(x,y)
 
-print(x|y, x&y, x-y)
+print(x|y, x&y, x-y, y-x)
 
 print("se" in x, "se" in y)
